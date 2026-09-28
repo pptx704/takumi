@@ -1,9 +1,5 @@
----
-packages:
-  "takumi-paint": minor
-  "takumi": minor
----
+## takumi-paint@0.1.0
 
-# Export painted values from JSX, HTML, or a node tree
+### Export painted values from JSX, HTML, or a node tree
 
 `paint()` and `Painter.paint()` return used decorations, image placement, and shaped text in paint order. A node carries `x`, `y`, `contentBox`, `textAlign`, `background`, `border`, `shadows`, `outline`, and `textRuns`. Each run carries its `font`, `lineHeight`, and `letterSpacing`. The tree iterates its nodes in paint order and offers `textRuns()` and `find()`.
